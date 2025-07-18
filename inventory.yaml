@@ -1,0 +1,18 @@
+systems:
+  hosts:
+    debian-101:
+      ansible_host: 192.168.1.101
+    debian-102:
+      ansible_host: 192.168.1.102
+    debian-103:
+      ansible_host: 192.168.1.103
+    debian-104:
+      ansible_host: 192.168.1.104
+    debian-105:
+      ansible_host: 192.168.1.105
+    debian-106:
+      ansible_host: 192.168.1.106
+    debian-107:
+      ansible_host: 192.168.1.107
+  vars:
+    ansible_user: root
